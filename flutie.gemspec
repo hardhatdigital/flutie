@@ -19,6 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   s.add_development_dependency('appraisal', '~> 2.1')
-  s.add_development_dependency("rspec-rails")
+  s.add_development_dependency("rspec-rails", "3.5.0.beta4")
   s.add_development_dependency('sqlite3', '~> 1.3')
 end
